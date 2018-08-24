@@ -1,0 +1,57 @@
+ <br>
+    <br>
+
+    <div class="form-container">
+    <form>
+        <div class="form-group">
+            <label for="lastName">Last name:</label>
+            <input type="text" class="form-control" id="lastName" autocomplete="name">
+        </div>
+
+        <div class="form-group">
+            <label for="firstName">First name:</label>
+            <input type="text" class="form-control" id="firstName" autocomplete="name">
+        </div>
+
+        <div class="form-group">
+            <label for="guestEmail">Email address:</label>
+            <input type="email" class="form-control" id="guestEmail" aria-describedby="emailHelp" placeholder="Enter email" autocomplete="email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+
+        <div class="form-group">
+            <label for="guestPhone">Phone</label>
+            <input id="guestPhone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number" autocomplete="phone">
+            <div class="help-block with-errors"></div>
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="roomType">Room Type:</label>
+            <select class="form-control" id="roomType">
+                <option>1 King</option>
+                <option>2 Queen</option>
+                <option>Executive Suite</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="startDate">Check-in Date:</label>
+            <input type="date" name="check-in-date" id="startDate" class="form-control" autocomplete="date">
+        </div>
+
+        <div class="form-group">
+            <label for="endDate">Check-out Date:</label>
+            <input type="date" name="check-in-date" id="endDate" class="form-control" autocomplete="date">
+        </div>
+
+        <div class="form-group">
+            <label for="guestNotes">Special Requests:</label>
+            <textarea class="form-control" rows="5" id="guestNotes"></textarea>
+        </div>
+
+        <input class="btn btn-primary" type="submit" value="Submit" id="submitBookingButton">
+    </form>
+</div>
+    <script src="./js/forms.js"></script>
