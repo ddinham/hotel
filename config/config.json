@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "AngelFish2",
+    "password": "AlF2",
     "database": "hotelexpress_db",
     "host": "localhost",
     "dialect": "mysql",
